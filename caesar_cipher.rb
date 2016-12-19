@@ -8,7 +8,7 @@ code = gets.split("")
 puts "Please enter your cipher shift: "
 shift = gets.to_i
 
-puts code[1].ord
+code.each {|x| print x}
 puts shift
 
 #Take Input
